@@ -1,14 +1,13 @@
 {
     "author": {
         "name": {
-            "first": "Tomas"
-          , "last":  "Baltrushaitis"
-          , "full":  "@{./last} @{./first}"
+            "first": "Martin"
+          , "last":  "Häuer"
+          , "full":  "@{./first} @{./last}"
         }
-      , "nick":  "Tom&acute;AS"
-      , "abbr":  "tbaltrushaitis"
-      , "email": "@{./abbr}@gmail.com"
-      , "url":   "https://github.com/@{./abbr}"
+      , "nick":  "Moe"
+      , "email": "@coop@osh.moe"
+      , "url":   "https://osh.moe"
     }
   , "project": {
       "license": "MIT"

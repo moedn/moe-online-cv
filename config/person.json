@@ -2,23 +2,22 @@
   "__parent": "./config.json"
 , "person": {
       "name": {
-          "first":  "Tomas"
-        , "last":   "Baltrushaitis"
-        , "full":   "@{./last} @{./first}"
+          "prefix": "Dipl.-Ing. & IWE"
+        , "first":  "Martin"
+        , "last":   "Häuer"
+        , "full":   "@{./prefix} @{./first} @{./last}"
       }
-    , "nick":   "Tom&acute;AS"
-    , "abbr":   "tbaltrushaitis"
-    , "email":  "@{./abbr}@gmail.com"
-    , "url":    "http://bit.ly/tomascv"
+    , "email":  "@coop@osh.moe"
+    , "url":    "https://osh.moe/"
     , "bio": {
-          "birth":        "October &apos;82"
-        , "citizenship":  "Ukrainian"
+          "birth":        "April &apos;92"
+        , "citizenship":  "German"
         , "location": {
-              "country":  "Ukraine"
-            , "city":     "Kyiv"
+              "country":  "Germany"
+            , "city":     "Berlin"
             , "full":     "@{./country}, @{./city}"
-            , "lat":      50.436336
-            , "lng":      30.488619
+            , "lat":      52.476471
+            , "lng":      13.421844
             , "geo": {
                   "lat":  "@{./lat}"
                 , "lng":  "@{./lng}"
@@ -26,43 +25,22 @@
           }
       }
     , "home": {
-          "pos-prefix": "full-stack"
-        , "pos-title":  "engineer"
-        , "pos-tags":   "#high #skilled #experienced #guru"
+          "pos-prefix": "Open Source"
+        , "pos-title":  "Project Manager"
+        , "pos-tags":   "open source hardware &middot; community management &middot; project coordination <br> mechanical engineering &middot; interdisciplinary projects
       }
     , "socials": {
-        "linkedin": {
-            "name":   "linkedin"
-          , "label":  "LinkedIn"
+        "orcid": {
+            "name":   "orcid"
+          , "label":  "ORCiD"
           , "title":  "LinkedIn profile"
-          , "icon":   "fab fa-linkedin"
-          , "url":    "http://bit.ly/tomas-in"
-        }
-      , "github": {
-            "name":   "github"
-          , "label":  "Github"
-          , "title":  "Github account"
-          , "icon":   "fab fa-github"
-          , "url":    "http://bit.ly/tomas-git"
-        }
-      , "bitbucket": {
-            "name":   "bitbucket"
-          , "label":  "BitBucket"
-          , "title":  "BitBucket repos"
-          , "icon":   "fab fa-bitbucket"
-          , "url":    "http://bit.ly/tomas-bb"
-        }
-      , "dockerhub": {
-            "name":   "dockerhub"
-          , "label":  "Docker"
-          , "title":  "Docker Hub"
-          , "icon":   "fab fa-docker"
-          , "url":    "http://bit.ly/tomas-hub"
+          , "icon":   "fab fa-orcid"
+          , "url":    "https://orcid.org/0000-0002-1611-7129"
         }
       }
     , "contacts": {
-          "cell":   "KzM4MCg2Myk1NDUtMjMtb25lLTM="
-        , "email":  "bWFpbHRvOnRiYWx0cnVzaGFpdGlzQGdtYWlsLmNvbQ=="
+          "cell":   "+49&middot;151&middot;28258755"
+        , "email":  "coop@osh.moe"
       }
   }
 }
